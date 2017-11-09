@@ -1,0 +1,9 @@
+/java/nbproject/
+
+/java/*.xml
+
+/java/*.mf
+
+/java/build/
+
+/java/test/

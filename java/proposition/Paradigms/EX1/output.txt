@@ -1,0 +1,11 @@
+Planet		Gravity		Weight
+========================================
+Mercury		0.378		18.90
+Venus		0.907		45.35
+Earth		1.000		50.00
+Moon		0.166		8.30
+Mars		0.377		18.85
+Jupiter		2.360		118.00
+Saturn		0.916		45.80
+Uranus		0.889		44.45
+Neptune		1.120		56.00

@@ -1,0 +1,10 @@
+A, The Incredibles, 13, 115
+F, Tropic Thunder,  9,  Ben Stiller,    25
+A, Despicable Me,   7,  95
+F, The Avengers,    5,  Joss Whedon,    207
+A, Frozen,          4,  102
+F, Lucy,            3,  Luc Besson,     43
+F, Ant-Man,         2,  Peyton Reed,    57
+F, Rogue One,       1,  Gareth Edwards, 155
+A, Finding Dory,    1,  97
+A, Zootopia,        1,  108

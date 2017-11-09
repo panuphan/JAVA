@@ -3,8 +3,6 @@ import java.net.*; // for using URI
 import java.util.*;
 import java.io.*;
 
-//package Algorithm;
-
 
 class MyBrowser {
 

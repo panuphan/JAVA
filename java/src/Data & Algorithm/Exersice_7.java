@@ -23,13 +23,13 @@ class Passage {
         
         do {
             try {
-                scan = new Scanner(new File(infile));
+                scan = new Scanner(new File("proposition/Data/EX7/"+infile));
                 openfile = false;
             } catch (Exception e) {
                 System.err.println(" Error file : "+ infile );
                 System.err.print(" Enter file : proposition/Data/EX7/");
                 Scanner scan_err = new Scanner(System.in);
-                infile = "proposition/Data/EX7"+scan_err.nextLine();
+                infile = scan_err.nextLine();
             }
         } while (openfile);
         
@@ -133,8 +133,8 @@ public class Exersice_7 {
     public static void main(String[] args) {
 
         // Create 2 Passage Objects & call method readPassage() of each object
-        Passage p1 = new Passage("proposition\\Data\\EX7/dolphin.txt");
-        Passage p2 = new Passage("proposition\\Data\\EX7/whale.txt");
+        Passage p1 = new Passage("dolphin.tsxt");
+        Passage p2 = new Passage("whale.txst");
         p1.readPassage(); p2.readPassage();
 
         //Print total number of words & total number of unique words in each passage

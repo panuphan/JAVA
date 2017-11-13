@@ -51,7 +51,7 @@ class MyGraph{
                 System.err.println(" Error file : "+ infile );
                 System.err.print(" Enter file : proposition/Data/EX8/");
                 Scanner scan_err = new Scanner(System.in);
-                infile = "proposition/Data/EX8/"+scan_err.nextLine();
+                infile = scan_err.nextLine();
             }
         } while (openfile);
         
@@ -117,7 +117,7 @@ class MyGraph{
     }
         
     
-    //Methods to find ShortesPath on graph 
+    //Methods to find ShortesRoutes on graph 
     public void ShortestRoutes() {
         
         // Check error source node
@@ -129,7 +129,7 @@ class MyGraph{
             String key1 = scan.nextLine().toUpperCase();
             try {
                 
-                // Sort by name
+                // Sort ArrayList(HomeNames) by name
                 Collections.sort(HomeNames);
                 
                 for (String key2 : HomeNames) {
@@ -214,7 +214,7 @@ public class Exersice_8 {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        MyGraph mygraph = new MyGraph("dgraphdata.txt");
+        MyGraph mygraph = new MyGraph("");
         mygraph.ShortestRoutes();
         
     }

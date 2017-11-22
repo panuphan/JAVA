@@ -1,9 +1,9 @@
-/java/nbproject/
+\nbproject/
 
-/java/*.xml
+\*.xml
 
-/java/*.mf
+\*.mf
 
-/java/build/
+\build/
 
-/java/test/
+\test/

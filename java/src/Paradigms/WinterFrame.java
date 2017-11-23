@@ -54,7 +54,6 @@ class MyToggleLabel extends JLabel implements KeyListener, MouseListener {
         setIcon(wolfIcon);
         setBounds(curX, curY, width, height);
         addMouseListener(this);
-        addKeyListener(this);
 
     }
 
